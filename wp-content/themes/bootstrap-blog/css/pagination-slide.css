@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'arrowicons';
-  src: url("/wp-content/themes/bootstrap-blog/font/arrowicons.eot");
-  src: url("/wp-content/themes/bootstrap-blog/font/arrowicons.eot#iefix") format('embedded-opentype'), url("/wp-content/themes/bootstrap-blog/font/arrowicons.woff") format('woff'), url("/wp-content/themes/bootstrap-blog/font/arrowicons.ttf") format('truetype'), url("/wp-content/themes/bootstrap-blog/font/arrowicons.svg#arrowicons") format('svg');
+  src: url("./../font/arrowicons.eot");
+  src: url("./../font/arrowicons.eot#iefix") format('embedded-opentype'), url("./../font/arrowicons.woff") format('woff'), url("./../font/arrowicons.ttf") format('truetype'), url("./../font/arrowicons.svg#arrowicons") format('svg');
   font-weight: normal;
   font-style: normal;
 }
