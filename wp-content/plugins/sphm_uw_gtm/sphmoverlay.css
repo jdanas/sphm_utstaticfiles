@@ -1,0 +1,9 @@
+#sphm_overlay {display:none}
+#sphm_overlay_continue {display:none;font-size:40px;line-height:80px;height:80px;position:absolute;top:0;right:0px;cursor:pointer;padding-right:40px;background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAARVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////9SnXPCAAAAFnRSTlMAAQMIERUyOExNTk9QV2SJi4yVpsPXC++ytgAAAFJJREFUKFPtyTsWgCAQA8Ag/lFRkdz/qBa+7SAdndMOYMIIIZJzfU9S/EWKH0j1LtkvjX9t/KHxT8XfrY/SbrbJ/YteLrqsFvBZ7ff1BfxzF/YFIqAUwJqsaWcAAAAASUVORK5CYII=") no-repeat 100% 50%}
+body.gotads #sphm_overlay_continue {display:block;opacity:0}
+body.gotads #sphm_overlay_continue:before {display:inline;content:"Continue to site";color:#fff}
+body.gotoverlay {max-height:100%;min-height:0;overflow-y:hidden}
+body.gotoverlay #sphm_overlay {position:fixed;top:0;left:0;width:100%;height:100%;color:#000;background-color:rgb(255,255,255);z-index:9999;display:block}
+body.gotads #sphm_overlay {color:#fff;background-color:#fff}
+body.gotfail #sphm_overlay:after {content:'';color:#fff;font-size:30px;line-height:50px;display:block;position:absolute;top:calc(50% - 50px);left:0;width:100%;text-align:center}
+@media (max-width:479px) {#sphm_overlay_continue {font-size:30px;line-height:60px;height:60px;padding-right:34px}}
