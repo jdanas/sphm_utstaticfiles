@@ -125,7 +125,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('/wp-content/themes/bootstrap-blog/css/ajax-loader.gif') center center no-repeat;
+    background: #fff url('/path/wp-content/themes/bootstrap-blog/css/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -135,8 +135,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('/wp-content/themes/bootstrap-blog/css/fonts/slick.eot');
-    src: url('/wp-content/themes/bootstrap-blog/css/fonts/slick.eot#iefix') format('embedded-opentype'), url('/wp-content/themes/bootstrap-blog/css/fonts/slick.woff') format('woff'), url('/wp-content/themes/bootstrap-blog/css/fonts/slick.ttf') format('truetype'), url('/wp-content/themes/bootstrap-blog/css/fonts/slick.svg#slick') format('svg');
+    src: url('/path/wp-content/themes/bootstrap-blog/css/fonts/slick.eot');
+    src: url('/path/wp-content/themes/bootstrap-blog/css/fonts/slick.eot#iefix') format('embedded-opentype'), url('/path/wp-content/themes/bootstrap-blog/css/fonts/slick.woff') format('woff'), url('/path/wp-content/themes/bootstrap-blog/css/fonts/slick.ttf') format('truetype'), url('/path/wp-content/themes/bootstrap-blog/css/fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev,
